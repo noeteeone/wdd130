@@ -1,0 +1,47 @@
+. {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+h2 {
+    margin: 10px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px yellowgreen;
+}
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0/10%);
+    padding: 10px;
+    background-color: lightgray;
+    font-size: 0.9rem;
+}
+footer {
+    background-color: greenyellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
