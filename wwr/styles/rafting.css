@@ -2,7 +2,7 @@
     --primary-color: #055a05;/*forest green*/
     --secondary-color: yellowgreen;/*#f4a261; warm sand*/
     --accent1-color: #264653;/*dark slate blue*/
-    /* --accent2-color: #e9c46a;light golden yellow */
+    --accent2-color: #e9c46a;/*light golden yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -61,7 +61,7 @@ h1 {
 .hero article {
     /* position: relative; */
     position: absolute;
-    background-color: var(--secondary-color); /*this was not there*/
+    background-color: var(--accent2-color); /*this was not there*/
     padding: 16px;/*this was not there*/
 }
 
