@@ -82,7 +82,8 @@ h1 {
 }
 
 h2{
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
