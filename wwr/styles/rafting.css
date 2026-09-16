@@ -60,10 +60,10 @@ h1 {
 }
 
 .hero article {
-    /* position: relative; */
+    position: absolute;
     top: 350px;
     width: 95%;
-    position: absolute;
+    /* position: absolute; */
     opacity: 0.7;
     background-color: rgb(0, 76, 255);
     /* background-color: var(--secondary-color); */
