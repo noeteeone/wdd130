@@ -74,7 +74,7 @@ h1 {
     /* background-color: var(--secondary-color); */
     /* background-color: var(--accent2-color); this was not there */
     padding: 16px;/*this was not there*/
-    color: white;
+    color: yellow;
 }
 
 .hero article img {
