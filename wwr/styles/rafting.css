@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 75px;
+    height: auto;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
