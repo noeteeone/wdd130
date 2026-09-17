@@ -39,6 +39,8 @@ nav, p, section, article {
 }
 
 .socialmedia a {
+    width: 50px;
+    height: auto;
     text-decoration: none;
 }
 
