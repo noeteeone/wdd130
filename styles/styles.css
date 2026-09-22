@@ -85,7 +85,7 @@ aside img {
 
 header,
 .grid footer {
-    max-width: 840px;
+    max-width: auto;
     margin: 0 auto;
 }
 
