@@ -14,8 +14,10 @@
 }
 
 img {
-    width: 75px;
+    width: 50px;
     height: auto;
+    /*margin-left: 1px;*/
+    /*float: right;*/
 }
 
 body {
@@ -26,6 +28,173 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    /* Creates 2 columns: left automatically sizes to the logo, right takes up remaining space */
+    grid-template-columns: auto 1fr;
+    /* Vertically centers both the logo and nav links */
+    align-items: center;
+    /* Adds a 20px gap between the logo and navigation */
+    /*align-content: center;*/
+    gap: 20px;
+    /*justify-content: flex-end;*/
+    background-color: goldenrod;
+    height: 100px;
+}
+
+.grid-container2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color:aliceblue;
+    padding: 10px;
+    border:#264653;
+    align-content: stretch;
+    flex-direction: row;
+}
+
+.grid-container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container3 img {
+    width: 150px;
+    height: auto;
+}
+
+.grid-container4 {
+    display: flex;/*grid;*/
+    grid-template-rows: 1fr 1fr;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    gap: 20px;
+    background-color: rgba(32, 144, 218, 0.194);
+    width: auto;
+    height: auto;
+    /*flex-flow: row wrap;*/
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    align-content: stretch;
+}
+
+.grid-item1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.image-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.grid-item2 img {
+    width: 150px;
+    height: auto;
+}
+.image-caption {
+    display: flex;
+    justify-content: center;
+}
+
+/*.grid-item3 {
+    display: flex;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    width: auto;
+    height: 1px;
+    margin-left: 10px;
+}
+*/
+.grid-container5 {
+    display: flex;
+    /*grid;*/
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    align-content: center;
+    /*gap: 20px;*/
+    background-color: goldenrod;
+    height: 100px;
+    /*flex-flow: row wrap;*/
+    flex-direction: row;
+    /*justify-content: flex-end;*/
+}
+
+/* Optional helper to align your navigation menu to the far right */
+nav {
+    justify-self: right;
+    padding: 20px;
+    /*flex-direction: row-reverse;*/
+    /*justify-content: space-between;*/
+    /*flex-direction: row;*/
+}
+
+/* Optional styling to lay out the list items horizontally */
+nav ul {
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+    background-color:azure;
+    /*width: 100px;*/
+    /*align-content: space-between;*/
+    /* Adds space between each link */  
 }
 
 
@@ -39,11 +208,13 @@ nav, p, section, article {
     padding: 8px;
 }
 
+
 .socialmedia a {
     width: 50px;
     height: auto;
     text-decoration: none;
 }
+
 
 .hero {
     position: relative;
@@ -91,11 +262,11 @@ h1 {
 
 h2{
     /* position: absolute; */
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
+    /*top: 20px;*/
+    /*width: 100%;*/
+    /*padding: 16px;*/
+    /*text-align: center;*/
+    /*opacity: 0.7;*/
+    /*background-color: var(--secondary-color);*/
     color: black;
 }
