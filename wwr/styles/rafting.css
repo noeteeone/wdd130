@@ -22,7 +22,7 @@ img {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    /*color: var(--accent1-color);*/
 }
 
 header, main, footer {
@@ -106,7 +106,7 @@ header, main, footer {
     gap: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    color: black;
+    /*color: black;*/
 }
 
 
