@@ -198,7 +198,12 @@ nav ul {
 }
 
 
-h1, h2 {
+h1 {
+    font-family: var(--heading-font);
+    color: white;
+} 
+
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
