@@ -157,7 +157,7 @@ header, main, footer {
     align-items: center;
     align-content: center;
     /*gap: 20px;*/
-    background-color: goldenrod;
+    background-color:rgba(32, 144, 218, 0.194);/* goldenrod;*/
     height: 100px;
     /*flex-flow: row wrap;*/
     flex-direction: row;
