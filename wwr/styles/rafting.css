@@ -198,9 +198,9 @@ nav ul {
 }
 
 
-h1 {
+.hero h1 {
     font-family: var(--heading-font);
-    color: white;
+    color: var(--primary-color);
 } 
 
 h2 {
