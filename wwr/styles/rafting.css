@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgb(8, 90, 8);/*forest green*/
-    --secondary-color: rgb(148, 200, 44);/*#f4a261; warm sand*/
-    --accent1-color: rgb(7, 7, 110);/*dark slate blue*/
-    --accent2-color: rgb(243, 208, 10);/*light golden yellow*/
+    --primary-color: rgb(8, 90, 8);
+    --secondary-color: rgb(214, 223, 232);
+    --accent1-color: rgb(214, 223, 232);
+    --accent2-color: rgba(32, 144, 218, 0.194);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -32,7 +32,7 @@ header, main, footer {
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 20px;
-    background-color: rgba(32, 144, 218, 0.194);
+    background-color: var(--accent2-color);
     height: 100px;
 }
 
@@ -41,8 +41,8 @@ header, main, footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 20px;
-    background-color:rgb(220, 228, 235);
     padding: 10px;
+    background-color: var(--secondary-color);
     border:rgb(23, 22, 22);
     align-content: stretch;
     flex-direction: row;
@@ -73,7 +73,7 @@ header, main, footer {
     display: flex;/*grid;*/
     grid-template-rows: 1fr 1fr;
     gap: 20px;
-    background-color: rgba(32, 144, 218, 0.194);
+    background-color: var(--accent2-color);
     width: auto;
     height: auto;
     flex-direction: column;
@@ -110,7 +110,7 @@ header, main, footer {
     grid-template-columns: 1fr auto;
     align-items: center;
     align-content: center;
-    background-color: rgba(32, 144, 218, 0.194);
+    background-color: var(--accent2-color);
     height: 100px;
     flex-direction: row;
 }
@@ -129,7 +129,7 @@ nav ul {
     padding: 10px;
     display: flex;
     gap: 150px;
-    background-color:rgb(202, 229, 229);
+    background-color:rgb(56, 180, 180);
     
 }
 
@@ -184,7 +184,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.5;
-    background-color: rgb(214, 223, 232); 
+    background-color: var(--accent1-color); 
 }
 
 .hero article {
@@ -192,9 +192,9 @@ h1 {
     top: 350px;
     width: 95%;
     opacity: 0.7;
-    background-color: rgb(214, 223, 232);
+    background-color: var(--secondary-color);
     padding: 16px;
-    color: rgb(20, 19, 19); /* yellow;*/
+    color: rgb(20, 19, 19); 
 }
 
 .hero article img {
