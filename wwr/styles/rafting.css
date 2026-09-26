@@ -110,7 +110,7 @@ header, main, footer {
 }
 
 
-.image-container2 {
+/*.image-container2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +139,7 @@ header, main, footer {
     flex-direction: column;
     justify-content: center;
 }
-
+*/
 
 .grid-item2 img {
     width: 150px;
@@ -198,9 +198,15 @@ nav ul {
     color: yellow;
 }
 
-h2 {
+.grid-h2 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    /*color: var(--primary-color);*/
+    color: black;
+}
+
+.grid-item1 h2 {
+    font-family: var(--heading-font);
+    /*color: var(--primary-color);*/
     color: black;
 }
 
@@ -215,7 +221,7 @@ nav, p, section, article {
     height: auto;
     text-decoration: none;
 }
-
+-
 
 .hero {
     position: relative;
