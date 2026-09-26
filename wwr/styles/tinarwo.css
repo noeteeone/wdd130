@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #055a05;/*forest green*/
+    --secondary-color: yellowgreen;/*#f4a261; warm sand*/
+    --accent1-color: #264653;/*dark slate blue*/
+    --accent2-color: #e9c46a;/*light golden yellow*/
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    /*margin-left: 1px;*/
+    /*float: right;*/
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    /* Creates 2 columns: left automatically sizes to the logo, right takes up remaining space */
+    grid-template-columns: auto 1fr;
+    /* Vertically centers both the logo and nav links */
+    align-items: center;
+    /* Adds a 20px gap between the logo and navigation */
+    /*align-content: center;*/
+    gap: 20px;
+    /*justify-content: flex-end;*/
+    background-color: goldenrod;
+    height: 100px;
+}
+
+.grid-container2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color:aliceblue;
+    padding: 10px;
+    border:#264653;
+    align-content: stretch;
+    flex-direction: row;
+}
+
+.grid-container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container3 img {
+    width: 150px;
+    height: auto;
+}
+
+.grid-container4 {
+    display: flex;/*grid;*/
+    grid-template-rows: 1fr 1fr;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    gap: 20px;
+    background-color: rgba(32, 144, 218, 0.194);
+    width: auto;
+    height: auto;
+    /*flex-flow: row wrap;*/
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    align-content: stretch;
+}
+
+.grid-item1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.image-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
