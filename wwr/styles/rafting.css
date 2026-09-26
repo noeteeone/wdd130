@@ -16,13 +16,10 @@
 img {
     width: 50px;
     height: auto;
-    /*margin-left: 1px;*/
-    /*float: right;*/
 }
 
 body {
     font-family: var(--body-font);
-    /*color: var(--accent1-color);*/
 }
 
 header, main, footer {
@@ -32,15 +29,10 @@ header, main, footer {
 
 .grid-container {
     display: grid;
-    /* Creates 2 columns: left automatically sizes to the logo, right takes up remaining space */
     grid-template-columns: auto 1fr;
-    /* Vertically centers both the logo and nav links */
     align-items: center;
-    /* Adds a 20px gap between the logo and navigation */
-    /*align-content: center;*/
     gap: 20px;
-    /*justify-content: flex-end;*/
-    background-color: rgba(32, 144, 218, 0.194);/* var(--accent2-color);/* goldenrod;*/
+    background-color: rgba(32, 144, 218, 0.194);
     height: 100px;
 }
 
@@ -80,15 +72,11 @@ header, main, footer {
 .grid-container4 {
     display: flex;/*grid;*/
     grid-template-rows: 1fr 1fr;
-    /*align-items: center;*/
-    /*align-content: center;*/
     gap: 20px;
     background-color: rgba(32, 144, 218, 0.194);
     width: auto;
     height: auto;
-    /*flex-flow: row wrap;*/
     flex-direction: column;
-    /*justify-content: flex-end;*/
     align-content: stretch;
 }
 
@@ -106,40 +94,7 @@ header, main, footer {
     gap: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    /*color: black;*/
 }
-
-/*
-.image-container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.image-container3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.image-container4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.image-container5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.image-container6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-*/
 
 .grid-item2 img {
     width: 150px;
@@ -152,25 +107,18 @@ header, main, footer {
 
 .grid-container5 {
     display: flex;
-    /*grid;*/
     grid-template-columns: 1fr auto;
     align-items: center;
     align-content: center;
-    /*gap: 20px;*/
-    background-color: rgba(32, 144, 218, 0.194);/*var(--accent2-color); goldenrod;*/
+    background-color: rgba(32, 144, 218, 0.194);
     height: 100px;
-    /*flex-flow: row wrap;*/
     flex-direction: row;
-    /*justify-content: flex-end;*/
 }
 
 /* Optional helper to align your navigation menu to the far right */
 nav {
     justify-self: right;
     padding: 20px;
-    /*flex-direction: row-reverse;*/
-    /*justify-content: space-between;*/
-    /*flex-direction: row;*/
 }
 
 /* Optional styling to lay out the list items horizontally */
@@ -182,9 +130,7 @@ nav ul {
     display: flex;
     gap: 150px;
     background-color:rgb(202, 229, 229);
-    /*width: 100px;*/
-    /*align-content: space-between;*/
-    /* Adds space between each link */  
+    
 }
 
 
@@ -195,18 +141,16 @@ nav ul {
 
 .hero h2 {
     text-align: center;
-    color:rgb(14, 13, 13); /*yellow;*/
+    color:rgb(14, 13, 13); 
 }
 
 .grid-h2 h2 {
     font-family: var(--heading-font);
-    /*color: var(--primary-color);*/
     color: rgb(20, 20, 20);
 }
 
 .grid-item1 h2 {
     font-family: var(--heading-font);
-    /*color: var(--primary-color);*/
     color: rgb(18, 18, 18);
 }
 
@@ -240,9 +184,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.5;
-    background-color: rgb(214, 223, 232); /*var(--accent2-color);*/
-    /* background-color: var(--secondary-color);  */
-    /*color: black;*/
+    background-color: rgb(214, 223, 232); 
 }
 
 .hero article {
@@ -250,16 +192,16 @@ h1 {
     top: 350px;
     width: 95%;
     opacity: 0.7;
-    background-color: rgb(214, 223, 232);; /*rgba(32, 144, 218, 0.194);/*var(--accent2-color);rgba(32, 144, 218, 0.194);/*rgb(0, 76, 255);*/
+    background-color: rgb(214, 223, 232);
     padding: 16px;
     color: rgb(20, 19, 19); /* yellow;*/
 }
 
 .hero article img {
-    display: block; /*this was not there*/
+    display: block; 
     float: right;
     width: 50px;
-    height: auto; /*this was not there*/
+    height: auto; 
     border: 1px solid rgb(0 0 0/10%);
     margin: 0 0 1rem 1rem;
 }
