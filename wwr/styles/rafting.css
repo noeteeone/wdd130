@@ -201,7 +201,7 @@ nav ul {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    color: black;
+    color: rgb(147, 120, 227);
 }
 
 nav, p, section, article {
