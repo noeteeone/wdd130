@@ -148,18 +148,6 @@ header, main, footer {
     justify-content: center;
 }
 
-/*.grid-item3 {
-    display: flex;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-    align-items: flex-start;
-    width: auto;
-    height: 1px;
-    margin-left: 10px;
-}
-*/
 .grid-container5 {
     display: flex;
     /*grid;*/
@@ -206,6 +194,7 @@ nav ul {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    color: black;
 }
 
 nav, p, section, article {
@@ -240,7 +229,7 @@ h1 {
     opacity: 0.5;
     background-color: var(--accent2-color);
     /* background-color: var(--secondary-color);  */
-    color: black;
+    /*color: black;*/
 }
 
 .hero article {
@@ -263,15 +252,4 @@ h1 {
     height: auto; /*this was not there*/
     border: 1px solid rgb(0 0 0/10%);
     margin: 0 0 1rem 1rem;
-}
-
-h2{
-    /* position: absolute; */
-    /*top: 20px;*/
-    /*width: 100%;*/
-    /*padding: 16px;*/
-    /*text-align: center;*/
-    /*opacity: 0.7;*/
-    /*background-color: var(--secondary-color);*/
-    color: black;
 }
