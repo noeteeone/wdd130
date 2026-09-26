@@ -49,7 +49,7 @@ header, main, footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 20px;
-    background-color:aliceblue;
+    background-color:rgb(220, 228, 235);
     padding: 10px;
     border:#264653;
     align-content: stretch;
@@ -181,7 +181,7 @@ nav ul {
     padding: 10px;
     display: flex;
     gap: 150px;
-    background-color:azure;
+    background-color:rgb(202, 229, 229);
     /*width: 100px;*/
     /*align-content: space-between;*/
     /* Adds space between each link */  
@@ -240,7 +240,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.5;
-    background-color: aliceblue; /*var(--accent2-color);*/
+    background-color: rgb(214, 223, 232); /*var(--accent2-color);*/
     /* background-color: var(--secondary-color);  */
     /*color: black;*/
 }
@@ -250,7 +250,7 @@ h1 {
     top: 350px;
     width: 95%;
     opacity: 0.7;
-    background-color: aliceblue; /*rgba(32, 144, 218, 0.194);/*var(--accent2-color);rgba(32, 144, 218, 0.194);/*rgb(0, 76, 255);*/
+    background-color: rgb(214, 223, 232);; /*rgba(32, 144, 218, 0.194);/*var(--accent2-color);rgba(32, 144, 218, 0.194);/*rgb(0, 76, 255);*/
     padding: 16px;
     color: black; /* yellow;*/
 }
