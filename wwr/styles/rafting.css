@@ -109,7 +109,7 @@ header, main, footer {
     /*color: black;*/
 }
 
-
+/*
 .image-container2 {
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ header, main, footer {
     flex-direction: column;
     justify-content: center;
 }
-
+*/
 
 .grid-item2 img {
     width: 150px;
