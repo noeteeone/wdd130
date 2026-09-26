@@ -191,6 +191,11 @@ nav ul {
     color: var(--primary-color);
 } 
 
+.hero h2 {
+    text-align: center;
+    color: yellow;
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
