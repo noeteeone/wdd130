@@ -106,7 +106,7 @@ header, main, footer {
     gap: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    color: rgb(68, 0, 255);
+    color: black;
 }
 
 
@@ -201,7 +201,7 @@ nav ul {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    color: rgb(147, 120, 227);
+    color: black;
 }
 
 nav, p, section, article {
