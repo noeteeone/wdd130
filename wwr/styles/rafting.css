@@ -106,7 +106,9 @@ header, main, footer {
     gap: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    color: rgb(68, 0, 255);
 }
+
 
 .image-container2 {
     display: flex;
