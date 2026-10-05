@@ -482,8 +482,6 @@ footer {
     grid-template-rows: 1fr auto;
 }
 
-
-
 .grid-container2 {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
@@ -628,12 +626,6 @@ article {
     position: relative;
 }
 
-
-
-
-
-
-
 .hero h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -700,7 +692,6 @@ h3 {
     border: 1px solid rgb(0 0 0/10%);
     margin: 0 0 1rem 1rem;
 }
-
 
 
 .grid-item3 {
@@ -773,6 +764,12 @@ article {
     text-decoration: none;
 }
 
+.socialmedia a {
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+}
+
 
 
 
@@ -827,8 +824,3 @@ input[type="checkbox"] {
     accent-color: #007fff;
 }
 
-.socialmedia a {
-    width: 50px;
-    height: auto;
-    text-decoration: none;
-}
