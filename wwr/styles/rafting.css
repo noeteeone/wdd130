@@ -359,7 +359,7 @@ article {
 }*/
 
 .hero1 h1 {
-    position: center;
+    /*position: center;*/
     /*absolute;*/
     top: 1px;
     width: 100%;
@@ -371,7 +371,7 @@ article {
 }
 
 h3 {
-    position: center;
+    /*position: center;*/
     /*absolute;*/
     /*top: 1px;*/
     /*width: 100%;*/
