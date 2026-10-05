@@ -424,8 +424,8 @@ select {
     box-sizing: border-box;
 }
 
-/*button[type="button"] {
-     width: 150px;
+/*input[type="button"] {
+     width: 450px;
      height: 30px;
      padding: 0;
      margin: 10px;
