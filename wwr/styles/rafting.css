@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --primary-color: rgb(8, 90, 8);
     --secondary-color: rgb(214, 223, 232);
     --accent1-color: rgb(214, 223, 232);
@@ -70,7 +70,7 @@ header, main, footer {
 }
 
 .grid-container4 {
-    display: flex;/*grid;*/
+    display: flex;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     background-color: var(--accent2-color);
@@ -115,13 +115,13 @@ header, main, footer {
     flex-direction: row;
 }
 
-/* Optional helper to align your navigation menu to the far right */
+
 nav {
     justify-self: right;
     padding: 20px;
 }
 
-/* Optional styling to lay out the list items horizontally */
+
 nav ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
@@ -229,7 +229,7 @@ nav, p, section, article {
 .grid-container1 {
     display: flex;
     flex-direction: row;
-    /* justify-content: center;*/
+    
     gap: 20px;
     grid-template-rows: 1fr auto;
 }
@@ -247,7 +247,7 @@ nav, p, section, article {
 
 .grid-container7 {
     display: flex;
-    /*grid;*/
+    
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     background-color: var(--accent2-color);
@@ -294,13 +294,13 @@ nav, p, section, article {
     flex-direction: row;
 }
 
-/* Optional helper to align your navigation menu to the far right */
+
 nav {
     justify-self: right;
     padding: 20px;
 }
 
-/* Optional styling to lay out the list items horizontally */
+
 nav ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
@@ -348,19 +348,305 @@ article {
 }
 
 
-/*.hero {
+
+
+.hero1 h1 {
+    
+    top: 1px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.5;
+    
+    color: var(--primary-color);
+}
+
+h3 {
+    
+    text-align: center;
+    
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    width: 95%;
+    opacity: 0.7;
+    
+    padding: 16px;
+    color: rgb(20, 19, 19);
+}
+
+
+
+.map iframe {
+    width: 540px;
+    height: 440px;
+    border: 1px solid rgb(8, 90, 8);
+    justify-content: flex-start;
+    margin-left: 1px;
+
+}
+
+
+
+input,
+textarea,
+select {
+    width: 450px;
+    height: 30px;
+    padding: 0;
+    margin: 1px 0;
+    box-sizing: border-box;
+}
+
+
+
+input[type="submit"] {
+    width: 450px;
+    height: 30px;
+    background-color: navy;
+    color: white;
+    align-self: center;
+}
+
+input[type="radio"].small-radio {
+    width: 10px;
+    height: 10px;
+   
+    accent-color: #007fff;
+}
+
+.radio-group {
+    display: flex;
+
+    
+    flex-direction: column;
+
+    
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    
+    accent-color: #007fff;
+}*/
+
+root {
+    --primary-color: rgb(8, 90, 8);
+    --secondary-color: rgb(214, 223, 232);
+    --accent1-color: rgb(214, 223, 232);
+    --accent2-color: rgba(32, 144, 218, 0.194);
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--accent2-color);
+    height: 100px;
+}
+
+.grid-container1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;*/
+    gap: 20px;
+    grid-template-rows: 1fr auto;
+}
+
+
+
+.grid-container2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border: rgb(23, 22, 22);
+    align-content: stretch;
+    flex-direction: row;
+}
+
+.grid-container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container3 img {
+    width: 150px;
+    height: auto;
+}
+
+.grid-item2 img {
+    width: 150px;
+    height: auto;
+}
+
+.grid-container4 {
+    display: flex;
+    /*grid;*/
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    background-color: var(--accent2-color);
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.grid-container5 {
+    display: flex;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    align-content: center;
+    background-color: var(--accent2-color);
+    width: 1000px;
+    height: 100px;
+    flex-direction: row;
+}
+
+.grid-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: flex-end;
+    width: auto;
+    align-content: stretch;
+}
+
+.grid-container7 {
+    display: flex;
+    /*grid;*/
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    background-color: var(--accent2-color);
+    width: 1000px;
+    height: auto;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.img-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-h2 h2 {
+    font-family: var(--heading-font);
+    color: rgb(20, 20, 20);
+}
+
+.grid-item1 h2 {
+    font-family: var(--heading-font);
+    color: rgb(18, 18, 18);
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.image-caption {
+    display: flex;
+    justify-content: center;
+}
+
+/* Optional helper to align your navigation menu to the far right */
+nav {
+    justify-self: right;
+    padding: 20px;
+}
+
+/* Optional styling to lay out the list items horizontally */
+nav ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+    background-color: rgb(56, 180, 180);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
     position: relative;
 }
 
-.hero img {
-    display: block;
+
+
+
+
+
+
+.hero h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    top: 1px;
     width: 100%;
-    height: auto;
-}*/
+    padding: 16px;
+    text-align: center;
+    opacity: 0.5;
+    background-color: var(--accent1-color);
+}
 
 .hero1 h1 {
-    /*position: center;*/
-    /*absolute;*/
     top: 1px;
     width: 100%;
     padding: 16px;
@@ -370,15 +656,30 @@ article {
     color: var(--primary-color);
 }
 
-h3 {
-    /*position: center;*/
-    /*absolute;*/
-    /*top: 1px;*/
-    /*width: 100%;*/
-    /*padding: 16px;*/
+
+.hero h2 {
     text-align: center;
-    /*opacity: 0.5;*/
-    /*background-color: var(--accent1-color); */
+    color: rgb(14, 13, 13);
+}
+
+h3 {
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    width: 95%;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    color: rgb(20, 19, 19);
 }
 
 .hero article {
@@ -391,14 +692,89 @@ h3 {
     color: rgb(20, 19, 19);
 }
 
-/*.hero article img {
-    display: block; 
+.hero article img {
+    display: block;
     float: right;
     width: 50px;
-    height: auto; 
+    height: auto;
     border: 1px solid rgb(0 0 0/10%);
     margin: 0 0 1rem 1rem;
-}*/
+}
+
+
+
+.grid-item3 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.grid-item4 img {
+    width: 150px;
+    height: auto;
+}
+
+.image-caption {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Optional helper to align your navigation menu to the far right */
+nav {
+    justify-self: right;
+    padding: 20px;
+}
+
+/* Optional styling to lay out the list items horizontally */
+nav ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+    background-color: rgb(56, 180, 180);
+}
+
+
+.grid-h2 h2 {
+    font-family: var(--heading-font);
+    color: rgb(20, 20, 20);
+}
+
+.grid-item1 h2 {
+    font-family: var(--heading-font);
+    color: rgb(18, 18, 18);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia {
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+}
+
+
+
 
 .map iframe {
     width: 540px;
@@ -409,11 +785,6 @@ h3 {
 
 }
 
-
-/*width="400" height="300"
-style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-
- origin-when-cross-origin">*/
-
 input,
 textarea,
 select {
@@ -423,16 +794,6 @@ select {
     margin: 1px 0;
     box-sizing: border-box;
 }
-
-/*input[type="button"] {
-     width: 450px;
-     height: 30px;
-     padding: 0;
-     margin: 10px;
-     box-sizing: border-box;
-     background-color: lightblue;
-
- }*/
 
 input[type="submit"] {
     width: 450px;
@@ -464,4 +825,10 @@ input[type="checkbox"] {
     height: 15px;
     /* Optional: Adjusts the checkmark color to fit the smaller size nicely */
     accent-color: #007fff;
+}
+
+.socialmedia a {
+    width: 50px;
+    height: auto;
+    text-decoration: none;
 }
