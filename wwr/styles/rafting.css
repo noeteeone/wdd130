@@ -143,10 +143,10 @@ nav ul {
     color:rgb(14, 13, 13); 
 }
 
-.grid-h2 h2 {
+/*.grid-h2 h2 {
     font-family: var(--heading-font);
     color: rgb(20, 20, 20);
-}
+}*/
 
 .grid-item1 h2 {
     font-family: var(--heading-font);
