@@ -133,10 +133,10 @@ nav ul {
  }
 
 
-.hero h1 {
+/*.hero h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-} 
+} */
 
 .hero h2 {
     text-align: center;
@@ -183,7 +183,9 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     opacity: 0.5;
-    background-color: var(--accent1-color); 
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .hero article {
@@ -229,7 +231,6 @@ nav, p, section, article {
 .grid-container1 {
     display: flex;
     flex-direction: row;
-    
     gap: 20px;
     grid-template-rows: 1fr auto;
 }
@@ -247,7 +248,6 @@ nav, p, section, article {
 
 .grid-container7 {
     display: flex;
-    
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     background-color: var(--accent2-color);
@@ -312,7 +312,7 @@ nav ul {
 }
 
 
-.hero h1 {
+/*.hero h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -325,7 +325,7 @@ nav ul {
 .grid-h2 h2 {
     font-family: var(--heading-font);
     color: rgb(20, 20, 20);
-}
+}*/
 
 .grid-item1 h2 {
     font-family: var(--heading-font);
