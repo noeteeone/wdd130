@@ -347,9 +347,6 @@ article {
     text-decoration: none;
 }
 
-
-
-
 .hero1 h1 {
     
     top: 1px;
@@ -362,22 +359,17 @@ article {
 }
 
 h3 {
-    
-    text-align: center;
-    
+   text-align: center;
 }
 
-.hero article {
+/*.hero article {
     position: absolute;
     top: 350px;
     width: 95%;
     opacity: 0.7;
-    
     padding: 16px;
     color: rgb(20, 19, 19);
-}
-
-
+}*/
 
 .map iframe {
     width: 540px;
@@ -388,8 +380,6 @@ h3 {
 
 }
 
-
-
 input,
 textarea,
 select {
@@ -399,8 +389,6 @@ select {
     margin: 1px 0;
     box-sizing: border-box;
 }
-
-
 
 input[type="submit"] {
     width: 450px;
@@ -413,24 +401,18 @@ input[type="submit"] {
 input[type="radio"].small-radio {
     width: 10px;
     height: 10px;
-   
     accent-color: #007fff;
 }
 
 .radio-group {
     display: flex;
-
-    
     flex-direction: column;
-
-    
     gap: 10px;
 }
 
 input[type="checkbox"] {
     width: 15px;
     height: 15px;
-    
     accent-color: #007fff;
 }
 
