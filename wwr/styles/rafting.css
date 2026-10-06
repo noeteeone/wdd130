@@ -135,7 +135,7 @@ nav ul {
 
 .hero h1 {
     font-family: var(--heading-font);
-    color: white;/*var(--primary-color);*/
+    color: var(--primary-color);
 } 
 
 .hero h2 {
