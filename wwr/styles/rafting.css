@@ -427,6 +427,11 @@ nav, p, section, article {
     height: auto;
 }
 
+.grid-item2 img {
+    width: 280px;
+    height:auto;
+}
+
 nav,
 p,
 section,
