@@ -166,10 +166,15 @@ input[type="radio"] {
 .grid-item14 {
     grid-template-rows: 1fr 1fr 1fr;
     display: flex;
-    width: 300px;
+    width: 850px;
     height: auto;
-    flex-direction: row;
+    column-gap: 100px;
+    flex-direction: column;
     background-color: lightcyan;
+}
+
+.grid-item13 {
+    background-color: lightyellow;
 }
 
 /*grid-container11 {
