@@ -397,7 +397,7 @@ nav, p, section, article {
 
 .grid-container7 {
     display: flex;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
     background-color: var(--accent2-color);
     width: 1000px;
