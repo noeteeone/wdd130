@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - NOETEE Rafting Company</title>
-    <meta name="description" content="Get in touch with NOETEE Rafting Company for all your white water rafting needs. We are here to assist you with our expert services.">
+    <meta name="description"
+        content="Get in touch with NOETEE Rafting Company for all your white water rafting needs. We are here to assist you with our expert services.">
     <meta name="author" content="Tinarwo Mupiwani">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
     <header>
         <div class="grid-container">
-            <img src="images/z-therapidssplash.jpg" alt="NOETEE Rafting Company logo"> 
+            <img src="images/z-therapidssplash.jpg" alt="NOETEE Rafting Company logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -25,63 +28,100 @@
 
     <main>
         <div class="hero1">
-            
+
             <h1>NOETEE RAFTING Company. Ltd</h1>
-            <h3>123 Main River Street</h3>
-            <h3>Kolob, Califonia</h3>
-            <h3>phone: (123) 456-7890</h3>
-            <h3>info@noeteerafting.com</h3>
-            
+            <h2>123 Main River Street</h3>
+            <h2>Kolob, Califonia</h3>
+            <h2>phone: (123) 456-7890</h3>
+            <h2>info@noeteerafting.com</h3>
+
         </div>
-        
+
         <div class="grid-container1">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.975628855562!2d-117.36571302596167!3d34.01883651949634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb2759fefd949%3A0x9fc4c4def6912cb9!2s123%20Main%20St%20%23123%2C%20Riverside%2C%20CA%2092501%2C%20USA!5e0!3m2!1sen!2szw!4v1791162053391!5m2!1sen!2szw"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.975628855562!2d-117.36571302596167!3d34.01883651949634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb2759fefd949%3A0x9fc4c4def6912cb9!2s123%20Main%20St%20%23123%2C%20Riverside%2C%20CA%2092501%2C%20USA!5e0!3m2!1sen!2szw!4v1791162053391!5m2!1sen!2szw"></iframe>
             </div>
 
-            <section>
-                <div class="grid-container6">
-                    <!--<h2>Contact Us</h2>
-                    <p>We would love to hear from you! Please fill out the form below and we will get back to you as soon as possible.</p>-->
-                    <form action="submit_form.php" method="post">
+            
+            <div class="grid-container6">
+                
+                <form>
+                    
+                    <div id="name">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="user_name" />
+                    </div>
+                
+                    <div id="email">
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </div>
+                    
+                    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+                    
+                    <fieldset>
+                        <label for="message urpose" id="message purpose" name="message purpose">
+                        <legend>Message Purpose</legend>
+                    
+                        <input type="radio" id="general inquiry" name="general enquiry" value="G" />
+                        <label for="kraken">General Inquiry</label><br />
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="radio" id="reservation question" name="reservation question" value="R" />
+                        <label for="sasquatch">Reservation Question</label><br />
                         
-                        <div class="radio-group">
+                        <input type="radio" id="Website Suggestion" name="Website Suggestion" value="W" />
+                        <label for="Website Suggestion">Website Suggestion</label>
+                        
+                    </fieldset>
+
+                    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    <div class="radio-group">
                         <label for="message purpose">Message Purpose:</label>
-                            <p>
-                                <input type="radio" id="opt1" name="radio" class="small-radio">
-                                <label for="opt1">General Inquiry</label>
-                            </p>
-
-                            <p>
-                                <input type="radio" id="opt2" name="radio" class="small-radio">
-                                <label for="opt2">Reservation Question</label>
-                            </p>
-
-                            <p>
-                                <input type="radio" id="opt3" name="radio" class="small-radio">
-                                <label for="opt3">Website Suggestion</label>
-                            </p>
-                        </div>
-
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-
-                        <label for="newsletter">
-                        <input type="checkbox" id="newsletter" name="newsletter">Please Subscribe me to the monthly newsletter</label>
-                        
-                        <label for="submit">Submit Form</label>
-                        <button type="submit" id="submit" name="submit">Submit Form</button>
-                        
-                    </form>
-                </div>
-            </section>
+                        <p>
+                            <input type="radio" id="opt1" name="button" class="small-radio">
+                            <label for="opt1">General Inquiry</label>
+                        </p>
+                    
+                        <p>
+                            <input type="radio" id="opt2" name="radio" class="small-radio">
+                            <label for="opt2">Reservation Question</label>
+                        </p>
+                    
+                        <p>
+                            <input type="radio" id="opt3" name="radio" class="small-radio">
+                            <label for="opt3">Website Suggestion</label>
+                        </p>
+                    </div>
+                    
+                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+                    
+                    <!--<legend>Your Message</legend>-->
+                
+                    <div id="message">
+                        <label for="msg">Your message:</label>
+                        <textarea id="msg" name="user_message" rows="5"></textarea>
+                    </div>
+                    
+                
+                    <div class="button">
+                        <button type="submit">Send your message</button>
+                    </div>
+                </form>
+                <form>
+                    <div id="newsletter">
+                        <label for="newsletter">Please Subscribe me to the monthly Newsletter
+                        <input type="checkbox" id="newsletter" name="newsletter"></label>
+                    </div>
+                    <div id="submit">
+                        <label for="submit"></label>
+                        <button type="submit" name="submit">Submit Form
+                    </div>
+                </form>
+            </div>
+            
         </div>
-        
+
         <section>
             <div class="grid-container7">
 
@@ -91,19 +131,19 @@
 
                 <div class="grid-item4">
                     <figure>
-                        <figcaption>Anonimous</figcaption>
+                        <caption>Anonimous</caption>
                         <img src="images/istockphoto-131.jpg" alt="image of Anonimous">
                         <figcaption>Reservations/Bookings</figcaption>
                     </figure>
-                    
+
                     <figure>
-                        <figcaption>Steven</figcaption>
+                        <caption>Steven</caption>
                         <img src="images/istockphoto-132.jpg" alt="image of Steven">
                         <figcaption>Rafting Coordinater/leader</figcaption>
                     </figure>
-                    
+
                     <figure>
-                        <figcaption>Jonathan</figcaption>
+                        <caption>Jonathan</caption>
                         <img src="images/istockphoto-221.jpg" alt="image of Jonathan">
                         <figcaption>Sales and Marketing</figcaption>
                     </figure>
@@ -129,9 +169,26 @@
         </div>
     </footer>
 </body>
+
 </html>
 
 <!--
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.975628855562!2d-117.36571302596167!3d34.01883651949634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb2759fefd949%3A0x9fc4c4def6912cb9!2s123%20Main%20St%20%23123%2C%20Riverside%2C%20CA%2092501%2C%20USA!5e0!3m2!1sen!2szw!4v1791162053391!5m2!1sen!2szw" 
 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
